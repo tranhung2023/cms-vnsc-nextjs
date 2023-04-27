@@ -1,0 +1,26 @@
+.item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    // background: var(--gray-primary);
+    padding: 10px 10px;
+    border-radius: var(--border-radius-primary);
+    transition: var(--transition-fast);
+    margin-bottom: 10px;
+    color: var(--color-white);
+    &:hover {
+        background-color: var(--gray-3);
+    }
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.text {
+    height: 16px;
+    line-height: 16px;
+}
